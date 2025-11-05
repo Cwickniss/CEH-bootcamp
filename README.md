@@ -4,6 +4,7 @@
 *	You can get them in PDF format while in class or in the recording
 *	Do not not ask for them outside of class
 *	This link above is open one day before class and 5 days after
+# Join the 200 for the full class IWANT200HQ3TFXWJ https://expandingsecurity.com/product/the-200-deposit/
 # Ways to build lab for 20250730
 *	 https://github.com/deanbushmiller/CEH-bootcamp/wiki/Z-Non-oreilly-way-to-build-lab
 *	The new way (below) requires the O'Reilly images to be uploaded ( READY ) 
