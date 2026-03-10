@@ -4,18 +4,18 @@
 *	You can get them in PDF format while in class or in the recording
 *	Do not not ask for them outside of class
 *	This link above is open one day before class and 5 days after
-# Join the 200 for the full class IWANT200HQ3TFXWJ https://expandingsecurity.com/product/the-200-deposit/
+
 # Ways to build lab for 20250730
 *	 https://github.com/deanbushmiller/CEH-bootcamp/wiki/Z-Non-oreilly-way-to-build-lab
 *	The new way (below) requires the O'Reilly images to be uploaded ( READY ) 
 *	We can build the lab at the beginning of class
 
-# Will work for 20251105-06 class
+# Will work for 20260310-11 class
 # AWS Lab Environment Deployment Guide
 	You will not need to install any software locally to run this lab.
 	You will need an AWS account and a creditcard on file with Amazon.
 	This will cost less than two dollars per hour while it is running
-	VERSION: 20250109.01
+	VERSION: 20260309v1
 ## 9 minute video walk-thru of lab setup & tear down https://vimeo.com/941430484
 
 ### AWS account
@@ -32,14 +32,14 @@
 2. In left sevices search type key pairs
 3. On right click "create key pair"
  - This is used to create an SSH key pair for connecting to the attacker machine in emergencies.
-4. Name your key 'lab' and append today's date, Example 'lab20251104'
+4. Name your key 'lab' and append today's date, Example 'lab20260310'
  - Windows = .ppk / Everyone else .pem
 5. Click create key pairs.
  - The key will automatically download
 ## Resource Deployment
 1. Search for CloudFormation in service
 2. On right Click Create Stack > With New Resources (standard)
-4. Template source, https://20241231-always-up-rid3031.s3.us-east-1.amazonaws.com/CAP-flag-20251104v4.yml
+4. Template source, https://20241231-always-up-rid3031.s3.us-east-1.amazonaws.com/CEH-20260309v1.yml
 5. Click Next
 6. Fill in the parameters
  - Name stack:
